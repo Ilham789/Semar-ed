@@ -1,0 +1,12 @@
+ul,li {
+	padding: 10px;
+	margin: 10px;
+}
+
+ul {
+	background-color: rgb(200,255,200);
+}
+
+li {
+	background-color: rgb(255,200,200);
+}
