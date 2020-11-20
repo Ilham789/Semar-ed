@@ -1,59 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./images/logo.png" rel="icon">
+        <link rel="stylesheet" href="./css/bootstrap.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Semar Education | Bimbingan Belajar</title>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="navbar navbar-expand-md bg-white sticky-top">
+            <img src="./images/Logo.png" alt="">
+            <a class="navbar-brand brand" href="">Semar Ed</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang kami<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Daftar Kelas</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href=#sd>SD</a>
+                            <a class="dropdown-item" href="#smp">SMP</a>
+                            <a class="dropdown-item" href="#sma">SMA</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Harga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End Header Section -->
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Semar Education | Bimbingan Belajar Terpercaya</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="./assets/css/style.css">
-</head>
+        <!-- Welcome Section -->
+        <section class="container mt-4 pt-4" id="welcome">
+            <div class="row">
+                <div class="col">
+                    <p class="prata main-text">Pembelajaran praktis dan menjanjikan</p>
+                    <p class="raleway secondary-text">Kami melayani dengan segenap hati karena anak anda adalah anak kami yang kedua</p>
+                    <div class="row">
+                        <div class="col text-center"><button style="width: 100%;" class="btn bg-main">Daftar</button></div>
+                        <div class="col text-center"><button style="width: 100%;" class="btn outline-main">Info</button></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/Figure 1.png" alt="">
+                </div>
+            </div>
+        </section>
 
-<body>
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-sm">
-		<div class="mr-auto logo">
-			<img src="./assets/images/Logo.png" alt="">
-			<a class="navbar-brand ml-4" href="">Semar Ed</a>
-		</div>
+        <!-- Call To Action Section -->
+        <section class="container-fluid cta mt-4 pt-4 pb-4" style="background-image: url('./images/bg-cta.jpg');background-blend-mode: overlay;background-color: rgba(0, 0, 0, 0.3);background-position: center;background-size: cover;">
+            <div class="row">
+                <div class="col text-center text-light cta">
+                    <h3>Ayo Daftar Sekarang</h3>
+                    <p>Tunggu apa lagi, dapatkan kesempatan untuk belajar dengan optimal</p>
+                    <a class="btn btn-outline-light" href="#pricing">Daftar Sekarang</a>
+                </div>
+            </div>
+        </section>
+        <!-- End Call To Action Section -->
 
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Profile Kami</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Harga</a>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">SD</a>
-					<a class="dropdown-item" href="#">SMP</a>
-					<a class="dropdown-item" href="#">SMA</a>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Kontak</a>
-			</li>
-		</ul>
-	</nav>
-	<!-- End Navbar -->
+        <!-- Pricing Section -->
+        <section class="container-fluid mt-4 pt-4" id="pricing">
+            <h1 class="text-uppercase text-center">Daftar Kelas</h1>
+            <hr>
+            <div class="container">
+                <div class="row mx-auto text-center" style="width: 300px;">
+                    <div class="col"><button class="btn bg-main">Per Bulan</button></div>
+                    <div class="col"><button class="btn outline-main">Per Tahun</button></div>
+                </div>
+            </div>
+            <div id="sd"><h4 class="text-center">SD</h4></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Reguler</h3>
+                        <p class="card-subtitle">IDR 50.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                    <div class="col-sm text-center bg-main p-3 m-2 card">
+                        <h3 class="card-title">Cerdas</h3>
+                        <p class="card-subtitle">IDR 300.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn btn-light">Beli</button>
+                    </div>
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Jenius</h3>
+                        <p class="card-subtitle">IDR 70.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div id="smp"><h4 class="text-center">SMP</h4></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Reguler</h3>
+                        <p class="card-subtitle">IDR 50.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                    <div class="col-sm text-center bg-main p-3 m-2 card">
+                        <h3 class="card-title">Cerdas</h3>
+                        <p class="card-subtitle">IDR 300.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn btn-light">Beli</button>
+                    </div>
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Jenius</h3>
+                        <p class="card-subtitle">IDR 70.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div id="sma"><h4 class="text-center">SMA</h4></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Reguler</h3>
+                        <p class="card-subtitle">IDR 50.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                    <div class="col-sm text-center bg-main p-3 m-2 card">
+                        <h3 class="card-title">Cerdas</h3>
+                        <p class="card-subtitle">IDR 300.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn btn-light">Beli</button>
+                    </div>
+                    <div class="col-sm text-center outline-main p-3 m-2 card">
+                        <h3 class="card-title">Jenius</h3>
+                        <p class="card-subtitle">IDR 70.000</p>
+                        <p class="card-text">Bimbingan intensif, buku, relasi, guru online</p>
+                        <button class="btn bg-main">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pricing Section -->
 
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="row">
-					<p class="main-header">Pembelajaran praktis dan menjanjikan</p>
-					<p class="secondary-header">Kami melayani dengan segenap hati karena anak anda adalah anak kami yang kedua</p>
-				</div>
-				<div class="row">
-					<div class="col"><button class="btn btn-primary">Daftar</button></div>
-					<div class="col"><button class="btn btn-outline-primary">Info</button></div>
-				</div>
-			</div>
-			<div class="col">
-				<img src="./assets/images/Figure 1.png" alt="">
-			</div>
-		</div>
-	</div>
-</body>
+        <!-- Kontak Section -->
+        <section class="container-fluid bg-gray pt-4 pb-4" id="kontak">
+            <h1 class="text-uppercase text-center">Kontak</h1>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End Kontak Section -->
+
+        <!-- Footer Section -->
+        <footer class="container-fluid pt-4 bg-dark text-light">
+            <div class="row mr-3 ml-3">
+                <div class="col-sm m-1">
+                    <h3>Semar Education</h3>                
+                    <p>Surakarta, Jawa Tengah, Indonesia</p>
+                    <p>Whatsapp : (+62) 856 1212 3443</p>
+                    <p>Email : semar@edu.ac.id</p>
+                </div>
+                <div class="col-sm m-1">
+                    <h3>Tautan</h3>
+                    <ul>
+                        <li><a class="text-light" href=''>Tentang Kami</a></li>
+                        <li><a class="text-light" href=#pricing>Daftar Kelas</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm m-1">
+                    <h3>Daftar Kelas</h3>
+                    <ul>
+                        <li><a class="text-light" href="#sd">SD</a></li>
+                        <li><a class="text-light" href="#smp">SMP</a></li>
+                        <li><a class="text-light" href="#sma">SMA</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm m-1">
+                    <h3>Surat Kabar</h3>
+                    <p>Berlangganan untuk mendapatkan informasi beasiswa, promo dan pembaruan lainnya</p>
+                    <div class="input-group mb-2">
+                        <input class="form-control" type="text" placeholder="Email">
+                        <button class="btn bg-main">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <hr>
+                    <p>&copy; Copyright. <a class="text-light" target="_blank" href="">Semar Education</a> 2020 - All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Section -->
+
+        <!-- Linked Script -->
+        <script type="text/javascript" src="./js/jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.js"></script>
+    </body>
 </html>
