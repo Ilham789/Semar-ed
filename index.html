@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="assets/img/Logo.png">
     <meta property="og:type" content="website">
     <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
     <title>SemarEd</title>
     <link rel="icon" type="image/png" sizes="67x49" href="assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -24,43 +24,37 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Tentang Kami</a></li>
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link black-text" href="#tentang-kami"><u>Tentang Kami</u></a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Daftar Kelas</a>
+                        <a class="nav-link dropdown-toggle black-text" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><u>Daftar Kelas</u></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#daftar-kelas">SD</a>
                             <a class="dropdown-item" href="#daftar-kelas">SMP</a>
                             <a class="dropdown-item" href="#daftar-kelas">SMA</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mendaftar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Kebijakan dan Peraturan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                    <li class="nav-item"><u><a class="nav-link black-text text-" href="#">Mendaftar</a></u></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="#">Kebijakan</a></u></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="#kontak">Kontak</a></u></li>
                 </ul>
-                <span class="navbar-text actions">
-                    <a class="login" href="#">Masuk</a>
-                    <a class="btn btn-primary action-button ml-2 main-bg" role="button" href="#">Daftar</a>
-                </span>
             </div>
         </div>
     </nav>
     
 
-    <div style="padding-bottom: 200px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" id="main-figure-1">
-                    <img id="main-img-1" class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
-                </div>
-                <div class="col-md-6">
-                    <h1 id="main-text" class="ml-4">Menuju Masa Depan Yang Cerah</h1>
-                    <p class="ml-4">Kami membimbing dengan segenap hati dan profesional menggunakan teknologi informasi</p>
-                    <a href="#tentang-kami" class="btn btn-primary ml-4 main-bg">Ketahui Lebih Lanjut</a>
-                </div>
-                <div class="col-md-6" id="main-figure-2">
-                    <img class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
-                </div>
+    <div class="container" id="pb-200">
+        <div class="row">
+            <div class="col-md-6" id="main-figure-1">
+                <img id="main-img-1" class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;">
+            </div>
+            <div class="col-md-6" id="text-sambutan">
+                <h1 id="main-text" class="ml-4">Menuju Masa Depan Yang Cerah</h1>
+                <p class="ml-4">Kami membimbing dengan segenap hati dan profesional menggunakan teknologi informasi</p>
+                <a href="#tentang-kami" class=" btn btn-primary ml-4 main-bg">Ketahui Lebih Lanjut</a>
+            </div>
+            <div class="col-md-6" id="main-figure-2">
+                <img class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
             </div>
         </div>
     </div>
@@ -73,7 +67,7 @@
                     <img class="img-responsive img-fluid" src="assets/img/undraw_connected_world_wuay%201.png" style="width: 460px;margin-top: -40px;">
                 </div>
                 <div class="col-md-6">
-                    <h1>Tentang Kami</h1>
+                    <h1 id="tentang-kami-title">Tentang Kami</h1>
                     <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia</p>
                     <ul>
                         <li>Memiiki jumlah total murid 1.500.000+</li>
@@ -94,13 +88,15 @@
                     <h1 class="mb-3">Founder</h1>
                     <img class="img-responsive img-fluid" src="assets/img/Philip%20Kantor%20Circle.png" style="width: 350px;">
                     <h4 class="mt-3">Prof. Philip Purwoko A.P , P.hD</h4>
-                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010</p>
+                    <p class="grey">Double Degree Education of Student in Academy and Technologhy, Harvard University 2010, Nobel Price of Education in 2019</p>
+                    <p>Philip Purwoko is a business magnate, industrial designer and engineer. He is the founder, CEO, CTO and chief designer of SpaceX; early investor, CEO and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI</p>
                 </div>
                 <div class="col-md-6 text-center">
                     <h1 class="mb-3">Co-Founder</h1>
                     <img class="img-responsive img-fluid" src="assets/img/PngItem_1114839.png" style="width: 350px;">
                     <h4 class="mt-3">Prof. Ilham Luqman A , P.hD</h4>
-                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010</p>
+                    <p class="grey">Double Degree Education of Student in Academy and Technologhy, Harvard University 2010, Nobel Price of Education in 2019</p>
+                    <p>Ilham Luqman is a business magnate, industrial designer and engineer. He is the founder, CEO, CTO and chief designer of SpaceX; early investor, CEO and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI</p>
                 </div>
             </div>
         </div>
@@ -124,31 +120,34 @@
             </div>
             <div class="row main-bg card-container">
                 <div class="col class-card">
-                    <h1>SD</h1>
-                    <ul class="text-left">
+                    <h4>SD</h4>
+                    <h2>IDR 1.000.000</h2>
+                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
                         <li>Buku dan media pembelajaran interaktif</li>
                     </ul>
-                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 1.000.000<br></button>
                 </div>
                 <div class="col class-card">
-                    <h1>SMP</h1>
-                    <ul class="text-left">
+                    <h4>SMP</h4>
+                    <h2>IDR 2.000.000</h2>
+                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
                         <li>Buku dan media pembelajaran interaktif</li>
                         <li>Tryout 1 kali setiap bulan</li>
                     </ul>
-                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 2.000.000<br></button>
                 </div>
                 <div class="col class-card">
-                    <h1>SMA</h1>
-                    <ul class="text-left">
+                    <h4>SMA</h4>
+                    <h2>IDR 3.000.000</h2>
+                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
                         <li>Buku dan media pembelajaran interaktif</li>
                         <li>Tryout 1 kali setiap minggu</li>
                         <li>Referensi perguruan tinggi di Indonesia</li>
                     </ul>
-                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 3.000.000</button>
                 </div>
             </div>
         </div>
@@ -158,8 +157,8 @@
     <div class="blue-bg pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h1 class="ml-4 pt-5">Tunggu Apa Lagi ?<br></h1>
+                <div class="col-md-6" id="cta">
+                    <h1 class="ml-4 pt-5">Ayo Daftar Sekarang !<br></h1>
                     <p class="ml-4">Bergabung berasama kami menuju masa depan yang cerah</p>
                     <a href="#daftar-kelas" class="ml-4 btn btn-primary main-bg" type="button">Daftar Sekarang</a>
                 </div>
@@ -180,45 +179,46 @@
             </div>
         </div>
     </section>
-    <div class="fluid-container mb-4 pt-3 pb-4 secondary-bg">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide text-center">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                            <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+    <div id="splide" class="splide secondary-bg pt-3 pb-4">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide text-center">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                            <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide text-center">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                            <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -286,8 +286,8 @@
                 </div>
             </div>
         <div class="row">
-            <div class="col">
-                <p class="text-center mt-2">Copyright SemarEd 2020 - All rights reserved</p>
+            <div class="col text-center">
+                <p class="mt-2">Copyright SemarEd 2020 - All rights reserved</p>
             </div>
         </div>
     </div>
@@ -296,7 +296,10 @@
 
     <script src="./assets/js/jquery-3.5.1.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        new Splide( '#splide' ).mount();
+    </script>
 </body>
 
 </html>
