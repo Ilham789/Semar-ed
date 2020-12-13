@@ -1,4 +1,11 @@
 ## :mortar_board: Semar Ed
+![GitHub top language](https://img.shields.io/github/languages/top/PhilipPurwoko/Semar-ed)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PhilipPurwoko/Semar-ed)
+![GitHub repo size](https://img.shields.io/github/repo-size/PhilipPurwoko/Semar-ed)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/PhilipPurwoko/Semar-ed)
+![GitHub](https://img.shields.io/github/license/PhilipPurwoko/Semar-ed)
+[![DeepSource](https://deepsource.io/gh/PhilipPurwoko/Semar-ed.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/PhilipPurwoko/Semar-ed/?ref=repository-badge)
+
 Website bimbingan belajar untuk siswa SD, SMP, dan SMA
 
 > Kami membimbing dengan segenap hati dan profesional menggunakan teknologi informasi. SemarEd ? Menuju Masa Depan Yang Cerah !
