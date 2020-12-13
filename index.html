@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SemarEd</title>
     <meta property="og:image" content="assets/img/Logo.png">
-    <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
     <meta property="og:type" content="website">
+    <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
+    <title>SemarEd</title>
     <link rel="icon" type="image/png" sizes="67x49" href="assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
@@ -15,23 +15,28 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="box-shadow: 0px 1px 5px rgb(200,200,200);">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
         <div class="container">
-            <img src="assets/img/Logo.png" style="width: 29px;margin-right: 11px;">
+            <img src="assets/img/Logo.png" style="width: 30px" class="mr-1">
             <a class="navbar-brand" href="">SemarED</a>
-            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link active" href="#">Tentang Kami</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Daftar Kelas</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">SD</a>
-                            <a class="dropdown-item" href="#">SMP</a>
-                            <a class="dropdown-item" href="#">SMA</a>
+                            <a class="dropdown-item" href="#daftar-kelas">SD</a>
+                            <a class="dropdown-item" href="#daftar-kelas">SMP</a>
+                            <a class="dropdown-item" href="#daftar-kelas">SMA</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mendaftar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kebijakan dan Peraturan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
                 </ul>
                 <span class="navbar-text actions">
                     <a class="login" href="#">Masuk</a>
@@ -45,32 +50,36 @@
     <div style="padding-bottom: 200px;">
         <div class="container">
             <div class="row">
+                <div class="col-md-6" id="main-figure-1">
+                    <img id="main-img-1" class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
+                </div>
                 <div class="col-md-6">
-                    <h1 class="ml-4" style="margin-top: 125px">Menuju Masa Depan Yang Cerah<br></h1>
-                    <p class="ml-4">Kami membimbing dengan segenap hati dan profesional menggunakan teknologi informasi<br></p>
-                    <button class="btn btn-primary ml-4 main-bg">Ketahui Lebih Lanjut</button></div>
-                <div class="col-md-6">
-                    <img src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
+                    <h1 id="main-text" class="ml-4">Menuju Masa Depan Yang Cerah</h1>
+                    <p class="ml-4">Kami membimbing dengan segenap hati dan profesional menggunakan teknologi informasi</p>
+                    <a href="#tentang-kami" class="btn btn-primary ml-4 main-bg">Ketahui Lebih Lanjut</a>
+                </div>
+                <div class="col-md-6" id="main-figure-2">
+                    <img class="img-responsive img-fluid" src="assets/img/undraw_winners_ao2o%201.png" style="width: 550px;margin-top: 90px;">
                 </div>
             </div>
         </div>
     </div>
     
 
-    <div style="margin-bottom: 60px;">
+    <div style="margin-bottom: 60px;" id="tentang-kami">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/img/undraw_connected_world_wuay%201.png" style="width: 460px;margin-top: -40px;">
+                    <img class="img-responsive img-fluid" src="assets/img/undraw_connected_world_wuay%201.png" style="width: 460px;margin-top: -40px;">
                 </div>
                 <div class="col-md-6">
                     <h1>Tentang Kami</h1>
-                    <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia<br></p>
+                    <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia</p>
                     <ul>
-                        <li>Memiiki jumlah total murid 1.500.000+<br></li>
-                        <li>85% murid diterima di perguruan tinggi favorit<br></li>
-                        <li>Memiliki 5000 tenaga pengajar yang terkualifikasi<br></li>
-                        <li>Memiliki cabang di seluruh Indonesia<br></li>
+                        <li>Memiiki jumlah total murid 1.500.000+</li>
+                        <li>85% murid diterima di perguruan tinggi favorit</li>
+                        <li>Memiliki 5000 tenaga pengajar yang terkualifikasi</li>
+                        <li>Memiliki cabang di seluruh Indonesia</li>
                     </ul>
                 </div>
             </div>
@@ -78,146 +87,133 @@
     </div>
     
 
-    <div style="padding-bottom: 40px;padding-top: 40px;background: #fdeed6;">
+    <div class="pb-5 pt-5 secondary-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="text-align: center;">
-                    <h1 style="margin-bottom: 20px;">Founder</h1><img src="assets/img/Philip%20Kantor%20Circle.png" style="width: 350px;">
-                    <h4 style="margin-top: 20px;">Prof. Philip Purwoko A.P , P.hD<br></h4>
-                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010<br></p>
+                <div class="col-md-6 text-center">
+                    <h1 class="mb-3">Founder</h1>
+                    <img class="img-responsive img-fluid" src="assets/img/Philip%20Kantor%20Circle.png" style="width: 350px;">
+                    <h4 class="mt-3">Prof. Philip Purwoko A.P , P.hD</h4>
+                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010</p>
                 </div>
-                <div class="col-md-6" style="text-align: center;">
-                    <h1 style="margin-bottom: 20px;">Co-Founder</h1><img src="assets/img/PngItem_1114839.png" style="width: 350px;">
-                    <h4 style="margin-top: 20px;">Prof. Ilham Luqman A , P.hD<br></h4>
-                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010<br></p>
+                <div class="col-md-6 text-center">
+                    <h1 class="mb-3">Co-Founder</h1>
+                    <img class="img-responsive img-fluid" src="assets/img/PngItem_1114839.png" style="width: 350px;">
+                    <h4 class="mt-3">Prof. Ilham Luqman A , P.hD</h4>
+                    <p>Double Degree Education of Student in Academy and Technologhy, Harvard University 2010</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End: 1 Row 2 Columns -->
-    <section style="padding-top: 80px;padding-bottom: 80px;">
+    
+    
+    <section style="padding-top: 80px;padding-bottom: 80px;" id="daftar-kelas">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h1 style="text-align: center;">Biaya</h1>
                 </div>
             </div>
-            <div class="row" style="margin-top: 20px;margin-bottom: 20px;">
-                <div class="col" style="text-align: center;border-color: #aee6e6;">
-                    <div class="btn-group" role="group" style="text-align: center;">
-                        <button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000000;border: 3px none #aee6e6 ;">Bulanan</button><button class="btn btn-primary" type="button" style="color: #000000;background: #ffffff;border-width: 3px;border-color: #aee6e6;">Tahunan</button>
+            <div class="row mt-3 mb-3">
+                <div class="col text-center">
+                    <div class="btn-group text-center" role="group">
+                        <button class="btn btn-primary blue-btn" type="button">Bulanan</button>
+                        <button class="btn btn-primary outline-blue-btn" type="button">Tahunan</button>
                     </div>
                 </div>
             </div>
-            <div class="row" style="padding: 20px;background: #ffa45b;border-radius: 20px;margin-left: 10px;margin-right: 10px;">
-                <div class="col" style="text-align: center;background: #ffffff;padding: 10px;border-radius: 20px;margin: 10px;">
+            <div class="row main-bg card-container">
+                <div class="col class-card">
                     <h1>SD</h1>
-                    <ul style="text-align: left;">
-                        <li>Bimbingan intensif, 3 kali pertemuan / minggu<br></li>
-                        <li>Buku dan media pembelajaran interaktif<br></li>
+                    <ul class="text-left">
+                        <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
+                        <li>Buku dan media pembelajaran interaktif</li>
                     </ul>
-                    <button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000;">Rp. 1.000.000<br></button>
+                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 1.000.000<br></button>
                 </div>
-                <div class="col" style="background: #ffffff;border-radius: 20px;margin: 10px;padding: 10px;text-align: center;">
-                    <h1 style="text-align: center;">SMP</h1>
-                    <ul style="text-align: left;">
-                        <li>Bimbingan intensif, 3 kali pertemuan / minggu<br></li>
-                        <li>Buku dan media pembelajaran interaktif<br></li>
-                        <li>Tryout 1 kali setiap bulan<br></li>
+                <div class="col class-card">
+                    <h1>SMP</h1>
+                    <ul class="text-left">
+                        <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
+                        <li>Buku dan media pembelajaran interaktif</li>
+                        <li>Tryout 1 kali setiap bulan</li>
                     </ul>
-                    <button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000;">Rp. 2.000.000<br></button>
+                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 2.000.000<br></button>
                 </div>
-                <div class="col" style="margin: 10px;padding: 10px;background: #ffffff;border-radius: 20px;text-align: center;">
+                <div class="col class-card">
                     <h1>SMA</h1>
-                    <ul style="text-align: left;">
-                        <li>Bimbingan intensif, 3 kali pertemuan / minggu<br></li>
-                        <li>Buku dan media pembelajaran interaktif<br></li>
-                        <li>Tryout 1 kali setiap minggu<br></li>
+                    <ul class="text-left">
+                        <li>Bimbingan intensif, 3 kali pertemuan / minggu</li>
+                        <li>Buku dan media pembelajaran interaktif</li>
+                        <li>Tryout 1 kali setiap minggu</li>
                         <li>Referensi perguruan tinggi di Indonesia</li>
                     </ul>
-                    <button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000;">Rp. 3.000.000</button>
+                    <button class="btn btn-primary blue-bg black-text" type="button">Rp. 3.000.000</button>
                 </div>
             </div>
         </div>
     </section>
     
 
-    <div style="background: #aee6e6;padding-top: 40px;padding-bottom: 40px;">
+    <div class="blue-bg pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 style="margin-top: 37px;margin-left: 40px;">Tunggu Apa Lagi ?<br></h1>
-                    <p style="margin-left: 40px;">Bergabung berasama kami menuju masa depan yang cerah<br></p><button class="btn btn-primary" type="button" style="background: #ffa45b;margin-left: 40px;">Daftar Sekarang</button></div>
-                <div class="col-md-6">
-                    <img src="assets/img/undraw_team_up_ip2x%201.png" style="width: 419px;">
+                    <h1 class="ml-4 pt-5">Tunggu Apa Lagi ?<br></h1>
+                    <p class="ml-4">Bergabung berasama kami menuju masa depan yang cerah</p>
+                    <a href="#daftar-kelas" class="ml-4 btn btn-primary main-bg" type="button">Daftar Sekarang</a>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <img class="img-responsive img-fluid" src="assets/img/undraw_team_up_ip2x%201.png" style="width: 419px;">
                 </div>
             </div>
         </div>
     </div>
     
 
-    <section style="margin-top: 80px;margin-bottom: 10px;">
+    <section style="margin-top: 80px" class="mb-2">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 style="text-align: center;">Alumni Kami</h1>
+                    <h1 class="text-center">Alumni Kami</h1>
                 </div>
             </div>
         </div>
     </section>
-    <div class="fluid-container" style="margin-bottom: 40px;padding-top: 20px;padding-bottom: 40px;background: #fdeed6;">
+    <div class="fluid-container mb-4 pt-3 pb-4 secondary-bg">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="text-align: center;">
+                <div class="swiper-slide text-center">
                     <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <h5 style="color: #000000;"><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p style="font-style: italic;color: rgb(150,150,150);">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                        <div class="col text-center">
+                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
                             <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text"><em>"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</em><br></p>
+                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" style="text-align: center;">
+                <div class="swiper-slide text-center">
                     <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <h5 style="color: #000000;"><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p style="font-style: italic;color: rgb(150,150,150);">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                        <div class="col text-center">
+                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
                             <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text"><em>"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</em><br></p>
+                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" style="text-align: center;">
+                <div class="swiper-slide text-center">
                     <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <h5 style="color: #000000;"><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p style="font-style: italic;color: rgb(150,150,150);">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                        <div class="col text-center">
+                            <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                            <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
                             <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text"><em>"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</em><br></p>
+                            <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" style="text-align: center;">
-                    <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <h5 style="color: #000000;"><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p style="font-style: italic;color: rgb(150,150,150);">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                            <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text"><em>"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</em><br></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="text-align: center;">
-                    <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <h5 style="color: #000000;"><strong>Nadiem Anwar Makarim</strong><br></h5>
-                            <p style="font-style: italic;color: rgb(150,150,150);">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                            <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                            <p class="testimonial-text"><em>"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</em><br></p>
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
             <div class="swiper-pagination"></div>
@@ -227,11 +223,11 @@
     </div>
 
 
-    <div style="padding-top: 40px;padding-bottom: 40px;">
+    <div class="pt-4 pb-4" id="kontak">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 style="text-align: center;margin-bottom: 20px;">Kontak</h1>
+                    <h1 class="text-center mt-2">Kontak</h1>
                 </div>
             </div>
             <div class="row">
@@ -244,7 +240,7 @@
                 <div class="col-md-4 contact-item">
                     <div>
                         <h4>Instagram</h4>
-                        <p>semared</p>
+                        <p>@semared</p>
                     </div>
                 </div>
                 <div class="col-md-4 contact-item">
@@ -258,24 +254,26 @@
     </div>
     
     
-    <div style="margin-top: 10px;background: #ffa45b;padding-top: 40px;padding-bottom: 20px;">
+    <div class="main-bg mt-1 pt-4 pb-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <h4>SemarEd</h4>
-                    <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia<br></p><a class="text-body" href="#">Kebijakan, syarat dan ketentuan</a></div>
+                    <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia</p>
+                    <a class="text-body" href="#">Kebijakan, syarat dan ketentuan</a>
+                </div>
                 <div class="col-md-4">
                     <h4>Tautan</h4>
                     <ul>
-                        <li><a class="text-body" href="#">Tentang Kami<br></a></li>
-                        <li class="text-body"><a class="text-body" href="#">Daftar Kelas<br></a>
+                        <li><a class="text-body" href="#tentang-kami">Tentang Kami<br></a></li>
+                        <li class="text-body"><a class="text-body" href="#daftar-kelas">Daftar Kelas<br></a>
                             <ul class="text-body">
                                 <li class="text-body"><a class="text-body" href="#">SD</a></li>
                                 <li class="text-body"><a class="text-body" href="#">SMP</a></li>
                                 <li class="text-body"><a class="text-body" href="#">SMA</a></li>
                             </ul>
                         </li>
-                        <li><a class="text-body" href="#">Kontak</a></li>
+                        <li><a class="text-body" href="#kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -289,7 +287,7 @@
             </div>
         <div class="row">
             <div class="col">
-                <p style="text-align: center;margin-top: 20px;">Copyright SemarEd 2020 - All rights reserved</p>
+                <p class="text-center mt-2">Copyright SemarEd 2020 - All rights reserved</p>
             </div>
         </div>
     </div>

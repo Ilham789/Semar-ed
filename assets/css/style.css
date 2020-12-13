@@ -1,5 +1,54 @@
+.navbar{
+    box-shadow: 0px 1px 5px rgb(200,200,200);
+}
+
 .main-bg {
     background: #ffa45b;
+}
+
+.secondary-bg {
+    background: #fdeed6;
+}
+
+.blue-bg {
+    background: #aee6e6;
+}
+
+.blue-btn{
+    background: #aee6e6;
+    color: #000000;
+    border: 3px none #aee6e6 ;
+}
+
+.outline-blue-btn{
+    color: #000000;
+    background: #ffffff;
+    border-width: 3px;
+    border-color: #aee6e6;
+}
+
+.black-text{
+    color: #000;
+}
+
+.secondary-text{
+    font-style: italic;
+    color: rgb(150,150,150);
+}
+
+.card-container{
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.class-card{
+    margin: 10px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .testimonial-text {
@@ -18,4 +67,26 @@
     border: 1px solid darkgray;
     padding: 15px;
     margin: auto;
+}
+
+#main-text{
+    margin-top: 125px
+}
+
+@media screen and (min-width: 768px) {
+    #main-figure-2{
+        display: block;
+    }
+    #main-figure-1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-figure-2{
+        display: none;
+    }
+    #main-figure-1{
+        display: block;
+    }
 }
