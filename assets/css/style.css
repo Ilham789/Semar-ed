@@ -1,0 +1,21 @@
+.main-bg {
+    background: #ffa45b;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #000000;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contact-item div{
+    text-align: center;
+    background: #fdeed6;
+    height: 100%;
+    border: 1px solid darkgray;
+    padding: 15px;
+    margin: auto;
+}
