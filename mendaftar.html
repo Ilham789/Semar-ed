@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/img/Logo.png">
+    <meta property="og:type" content="website">
+    <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
+    <title>SemarEd | Pendaftaran</title>
+    <link rel="icon" type="image/png" sizes="67x49" href="assets/img/Logo.png">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container">
+            <img src="assets/img/Logo.png" style="width: 30px" class="mr-1">
+            <a class="navbar-brand" href="./index.html">SemarED</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link black-text" href="./index.html"><u>< Kembali ke menu sebelumnya</u></a></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="#">Kebijakan</a></u></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="#kontak">Kontak</a></u></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <form class="container mt-5 mb-5 form-group">
+        <div class="row">
+            <div class="col text-right"><img width="293px" src="./assets/img/undraw_join_of2w 1.png" class="fluid-image"></div>
+            <div class="col"><img width="293px" src="./assets/img/undraw_data_processing_yrrv 1.png" class="fluid-image"></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col text-center">
+                <h1>Satu Langkah Menuju Kesuksesan</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="nama">Nama Lengkap</label>
+                <input class="form-control" type="text" name="nama" required>
+                <label for="alamat">Alamat Email</label>
+                <input class="form-control" type="email" name="alamat" required>
+                <label for="face">Pas Foto (3:4)</label>
+                <input class="form-control-file" type="file" name="face" required>
+                <label for="hp">Handphone</label>
+                <input type="text" class="form-control" name="hp" required>
+                <label for="alamat">Alamat Tinggal</label>
+                <input type="text" class="form-control" name="alamat" required>
+                <label for="ttl">Tanggal Lahir</label>
+                <input type="date" class="form-control" name="ttl" required>
+                <label for="asalSekolah">Asal Sekolah</label>
+                <input type="text" class="form-control" name="asalSekolah" required>
+                <label for="alamatSekolah">Alamat Sekolah</label>
+                <input type="text" class="form-control" name="alamatSekolah" required>
+                <label for="kip">Kartu Indonesia Pintar</label>
+                <input type="number" class="form-control" name="kip">
+                <p class="grey px14">* Disisi untuk yang memliliki Kartu Indonesia Pintar (KIP) untuk mendapatkan potongan harga</p>
+                <label for="jenjang">Jenjang Saat Ini</label>
+                <select class="form-control" name="jenjang" id="jenjang" required>
+                    <option value="SD">Sekolah Dasar</option>
+                    <option value="SMP">Sekolah Menengah Pertama</option>
+                    <option value="SMA">Sekolah Menengah Atas</option>
+                </select>
+                <label for="pembayaran">Metode Pembayaran</label>
+                <select class="form-control" name="pembayaran" id="pembayaran" required>
+                    <option value="transfer">Transfer melalui Rekening BANK</option>
+                    <option value="dana">Bayar melalui DANA</option>
+                    <option value="ovo">Bayar melalui OVO</option>
+                    <option value="gopay">Bayar melalui GoPay</option>
+                </select>
+                <div class="checkbox mt-2">
+                    <label class="grey px14"><input type="checkbox" value="setuju" class="mr-2" required>Saya menyetujui kebijakan dan peraturan yang berlaku dalam SemarEd seluruhnya</label>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-primary blue-bg black-text" type="submit">Mendaftar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Footer -->
+    <div class="main-bg mt-3 pt-4 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>SemarEd</h4>
+                    <p>SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia</p>
+                    <a class="text-body" href="#">Kebijakan, syarat dan ketentuan</a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Tautan</h4>
+                    <ul>
+                        <li><a class="text-body" href="#tentang-kami">Tentang Kami<br></a></li>
+                        <li class="text-body"><a class="text-body" href="#daftar-kelas">Daftar Kelas<br></a>
+                            <ul class="text-body">
+                                <li class="text-body"><a class="text-body" href="#">SD</a></li>
+                                <li class="text-body"><a class="text-body" href="#">SMP</a></li>
+                                <li class="text-body"><a class="text-body" href="#">SMA</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="text-body" href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Berlangganan</h4>
+                    <p>Berlangganan email kami untuk mendapatkan informasi terkini, diskon, acara, dan beasiswa<br></p>
+                    <div class="input-group">
+                        <div class="input-group-prepend"></div><input class="form-control" type="text">
+                        <div class="input-group-append"><button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000000;">Subscribe!</button></div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col text-center">
+                <p class="mt-2">Copyright SemarEd 2020 - All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.5.1.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
