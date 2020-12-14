@@ -1,3 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 .navbar{
     box-shadow: 0px 1px 5px rgb(200,200,200);
 }
@@ -8,6 +17,14 @@
 
 .secondary-bg {
     background: #fdeed6;
+}
+
+.grey{
+    color: grey;
+}
+
+.px14{
+    font-size: 14px;
 }
 
 .blue-bg {
@@ -28,7 +45,7 @@
 }
 
 .black-text{
-    color: #000;
+    color: #000 !important;
 }
 
 .secondary-text{
@@ -54,7 +71,7 @@
 .testimonial-text {
     font-style: italic;
     color: #000000;
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     margin: auto;
     margin-top: 10px;
@@ -69,24 +86,40 @@
     margin: auto;
 }
 
-#main-text{
-    margin-top: 125px
-}
 
-@media screen and (min-width: 768px) {
+/* Welcome text responsive */
+#main-figure-2{display: none;}
+#main-figure-1{display: block;}
+#main-text{margin-top: 50px;}
+#pb-200{padding-bottom: 80px;}
+#main-img-1{margin-top: 30px;}
+
+@media only screen and (min-width: 768px) {
     #main-figure-2{
         display: block;
     }
     #main-figure-1{
         display: none;
     }
+    #main-img-1{margin-top: 90px;}
+    #main-text{margin-top: 125px;}
+    #pb-200{padding-bottom: 200px;}
+
 }
 
-@media screen and (max-width: 768px) {
-    #main-figure-2{
-        display: none;
+@media only screen and (max-width: 425px){
+    .contact-item{
+        margin-top: 20px;
     }
-    #main-figure-1{
-        display: block;
+    #text-sambutan{
+        margin-left: -10px;
+        text-align: center;
+    }
+    #tentang-kami-title{
+        text-align: center;
+    }
+    #cta{
+        text-align: center;
+        margin-left: -14px;
     }
 }
