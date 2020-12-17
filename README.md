@@ -18,8 +18,7 @@ SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdi
 * Memiliki cabang di seluruh Indonesia
 
 ## Dokumentasi
-[UI/UX Design on Figma](https://www.figma.com/file/S1BpVxnz4EwlubRP8011Sn/Website-Semar-Ed?node-id=0%3A1)
+* [Forum Diskusi](https://github.com/PhilipPurwoko/Semar-ed/discussions)
+* [UI/UX Design on Figma](https://www.figma.com/file/S1BpVxnz4EwlubRP8011Sn/Website-Semar-Ed?node-id=0%3A1)
+* [Website Prototyping on Figma](https://www.figma.com/proto/S1BpVxnz4EwlubRP8011Sn/Website-Semar-Ed?node-id=6%3A2&scaling=scale-down)
 
-## Library
-* [Bootstrap 4.5.3](https://getbootstrap.com/)
-* [jQuery 3.4.1](https://jquery.com/)
