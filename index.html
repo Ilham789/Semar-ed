@@ -140,16 +140,16 @@
             <div class="row mt-3 mb-3">
                 <div class="col text-center">
                     <div class="btn-group text-center" role="group">
-                        <button class="btn btn-primary blue-btn" type="button">Bulanan</button>
-                        <button class="btn btn-primary outline-blue-btn" type="button">Tahunan</button>
+                        <button id="bulanan" class="btn btn-primary blue-btn" type="button">Bulanan</button>
+                        <button id="tahunan" class="btn btn-primary outline-blue-btn" type="button">Tahunan</button>
                     </div>
                 </div>
             </div>
             <div class="row main-bg card-container">
                 <div class="col class-card">
                     <h4>SD</h4>
-                    <h2>IDR 1.000.000</h2>
-                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <h2 id="harga-sd">IDR 1.000.000</h2>
+                    <a href="./mendaftar.html" class="btn btn-primary blue-bg mt-2">Medaftar</a>
                     <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 4 kali pertemuan / minggu</li>
                         <li>Media pembelajaran interaktif</li>
@@ -159,8 +159,8 @@
                 </div>
                 <div class="col class-card">
                     <h4>SMP</h4>
-                    <h2>IDR 2.000.000</h2>
-                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <h2 id="harga-smp">IDR 2.000.000</h2>
+                    <a href="./mendaftar.html" class="btn btn-primary blue-bg mt-2">Medaftar</a>
                     <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 4 kali pertemuan / minggu</li>
                         <li>Buku pembelajaran terbaru dan terbaik</li>
@@ -172,8 +172,8 @@
                 </div>
                 <div class="col class-card">
                     <h4>SMA</h4>
-                    <h2>IDR 3.000.000</h2>
-                    <a class="btn btn-primary blue-bg mt-2">Medaftar</a>
+                    <h2 id="harga-sma">IDR 3.000.000</h2>
+                    <a href="./mendaftar.html" class="btn btn-primary blue-bg mt-2">Medaftar</a>
                     <ul class="text-left mt-3">
                         <li>Bimbingan intensif, 4 kali pertemuan / minggu</li>
                         <li>Bimbingan menemukan minat dan bakat</li>
@@ -197,7 +197,7 @@
                 <div class="col-md-6" id="cta">
                     <h1 class="ml-4 pt-5">Ayo Daftar Sekarang !<br></h1>
                     <p class="ml-4">Bergabung berasama kami menuju masa depan yang cerah</p>
-                    <a href="#daftar-kelas" class="ml-4 btn btn-primary main-bg" type="button">Daftar Sekarang</a>
+                    <a href="./mendaftar.html" class="ml-4 btn btn-primary main-bg" type="button">Daftar Sekarang</a>
                 </div>
                 <div class="col-md-6 mt-5">
                     <img class="img-responsive img-fluid" src="assets/img/undraw_team_up_ip2x%201.png" style="width: 419px;">
@@ -224,10 +224,58 @@
                     <div class="fluid-container">
                         <div class="row">
                             <div class="col" style="text-align: center;">
-                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
+                                <h5><strong>Vespasian Debby Felicitás</strong><br></h5>
+                                <p class="secondary-text">CEO of NASA</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"I am really satisfied with my SemarEd. I would gladly pay over 600 dollars for SemarEd. SemarEd is exactly what our business has been lacking."</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Hong Cynwrig Naiche</strong><br></h5>
+                                <p class="secondary-text">Backend Developer at Microsoft</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"Thanks to SemarEd, we've just launched our 5th website! If you aren't sure, always go for SemarEd. I just can't get enough of SemarEd. I want to get a T-Shirt with SemarEd on it so I can show it off to everyone."</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Zebulun Hodia Lalitha</strong><br></h5>
+                                <p class="secondary-text">Tesla inventor and maintaner</p>
                                 <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
                                 <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Alfredo Anastasios Liv</strong><br></h5>
+                                <p class="secondary-text">CEO of startup Indonesia Sejuk</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"Thanks SemarEd! SemarEd saved my business. I am really satisfied with my SemarEd. SemarEd saved my business."</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="fluid-container">
+                        <div class="row">
+                            <div class="col" style="text-align: center;">
+                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
+                                <p class="secondary-text">Ministry of Education and Culture Republik Indonesia</p>
+                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
+                                <p class="testimonial-text">"It's exactly what I've been looking for. I will let my mum know about this, she could really make use of SemarEd! If you aren't sure, always go for SemarEd."</p>
                             </div>
                         </div>
                     </div>
@@ -239,55 +287,7 @@
                                 <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
                                 <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
                                 <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="splide__slide">
-                    <div class="fluid-container">
-                        <div class="row">
-                            <div class="col" style="text-align: center;">
-                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="splide__slide">
-                    <div class="fluid-container">
-                        <div class="row">
-                            <div class="col" style="text-align: center;">
-                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="splide__slide">
-                    <div class="fluid-container">
-                        <div class="row">
-                            <div class="col" style="text-align: center;">
-                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="splide__slide">
-                    <div class="fluid-container">
-                        <div class="row">
-                            <div class="col" style="text-align: center;">
-                                <h5><strong>Nadiem Anwar Makarim</strong><br></h5>
-                                <p class="secondary-text">CEO of Gojek Indonesia, Menteri Kemendikbud</p>
-                                <img src="assets/img/PngItem_1114839.png" style="width: 300px;">
-                                <p class="testimonial-text">"I will let my mum know about this, she could really make use of SemarEd! SemarEd was worth a fortune to my company. SemarEd is the most valuable business resource we have EVER purchased"</p>
+                                <p class="testimonial-text">"We have no regrets! I'd be lost without SemarEd. I like SemarEd more and more each day because it makes my life a lot easier."</p>
                             </div>
                         </div>
                     </div>
@@ -355,15 +355,15 @@
                 <div class="col-md-4">
                     <h4>Berlangganan</h4>
                     <p>Berlangganan email kami untuk mendapatkan informasi terkini, diskon, acara, dan beasiswa<br></p>
-                    <form class="input-group">
+                    <form class="input-group" id="subscribe">
                         <div class="input-group-prepend"></div><input class="form-control" type="email">
-                        <div class="input-group-append"><button class="btn btn-primary blue-bg black-text" type="button">Subscribe!</button></div>
+                        <div class="input-group-append"><button class="btn btn-primary blue-bg black-text" type="button" onclick="hideSub()">Subscribe!</button></div>
                     </form>
                 </div>
             </div>
         <div class="row">
             <div class="col text-center">
-                <p class="mt-2">Copyright SemarEd 2020 - All rights reserved</p>
+                <a class="mt-2 black-text" href="https://github.com/PhilipPurwoko/Semar-ed">Copyright SemarEd 2020 - All rights reserved</a>
             </div>
         </div>
     </div>
@@ -373,6 +373,8 @@
     <script src="./assets/js/jquery-3.5.1.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="./assets/js/harga.js"></script>
+    <script src="./assets/js/subscribe.js"></script>
     <script>new Splide( '#splide' ).mount();</script>
 </body>
 
