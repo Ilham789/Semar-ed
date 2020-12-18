@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="assets/img/Logo.png">
+    <meta property="og:image" content="assets/img/neonbrand-zFSo6bnZJTw-unsplash.jpg">
     <meta property="og:type" content="website">
     <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
-    <title>SemarEd | Pendaftaran</title>
+    <title>SemarEd | Customer Service</title>
     <link rel="icon" type="image/png" sizes="67x49" href="assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cs.css">
+    <link rel="stylesheet" href="./assets/css/star.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -26,7 +29,7 @@
                     <li class="nav-item"><a class="nav-link black-text" href="./index.html"><u>< Kembali ke menu sebelumnya</u></a></li>
                     <li class="nav-item"><u><a class="nav-link black-text" href="./mendaftar.html">Mendaftar</a></u></li>
                     <li class="nav-item"><u><a class="nav-link black-text" href="./kebijakan.html">Kebijakan</a></u></li>
-                    <li class="nav-item"><u><a class="nav-link black-text" href="./kontak.html">Kontak</a></u></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="./kontak.html">Customer Service</a></u></li>
                 </ul>
             </div>
         </div>
@@ -42,27 +45,52 @@
                 <p>Anda dapat menggunakan salah satu dari kontak kami berikut ini untuk menanyakan apapun. Customer Service kami akan merespon segera setelah pesan terkirim. Jika Anda mengirimkan pertanyaan yang tidak dijawab selama lebih dari 12 jam maka silakan menggunakan email SemarEd</p>
                 <ul>
                     <li><a href="mailto:semared@bimbel.edu">semared@bimbel.edu</a></li>
-                    <li>@semared</li>
-                    <li>semared</li>
-                    <li>+62 73 1204 5410</li>
+                    <li><a href="">@semared</a></li>
+                    <li><a href="">semared</a></li>
+                    <li><a href="">+62 73 1204 5410</a></li>
                 </ul>
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col text-center">
+            <div class="col-md text-center" id="toggle-img">
                 <img style="width: 400px;" class="img-fluid img-responsive" src="./assets/img/Group 2.png" alt="">
             </div>
-            <div class="col">
+            <div class="col-md">
                 <h1>Feedback</h1>
                 <p>Silakan berikan feedback kepada kami disini</p>
-                <div class="row">
-                    <div class="col d-flex justify-content-between">
-                        <img src="./assets/img/Star 1.png" alt="">
-                        <img src="./assets/img/Star 1.png" alt="">
-                        <img src="./assets/img/Star 1.png" alt="">
-                        <img src="./assets/img/Star 1.png" alt="">
-                        <img src="./assets/img/Star 1.png" alt="">
-                    </div>
+                <div class="text-center">
+                    <fieldset class="rating">
+                        <input id="rate-5" type="radio" name="rating" value="5">
+                        <label for="rate-5">
+                            <svg viewBox="0 -4 80 80">
+                                <path d="M 40.000 60.000 L 63.511 72.361 L 59.021 46.180 L 78.042 27.639 L 51.756 23.820 L 40.000 0.000 L 28.244 23.820 L 1.958 27.639 L 20.979 46.180 L 16.489 72.361 L 40.000 60.000"></path>
+                            </svg>
+                        </label>
+                        <input id="rate-4" type="radio" name="rating" value="4">
+                        <label for="rate-4">
+                            <svg viewBox="0 -4 80 80">
+                                <path d="M 40.000 60.000 L 63.511 72.361 L 59.021 46.180 L 78.042 27.639 L 51.756 23.820 L 40.000 0.000 L 28.244 23.820 L 1.958 27.639 L 20.979 46.180 L 16.489 72.361 L 40.000 60.000"></path>
+                            </svg>
+                        </label>
+                        <input id="rate-3" type="radio" name="rating" value="3">
+                        <label for="rate-3">
+                            <svg viewBox="0 -4 80 80">
+                                <path d="M 40.000 60.000 L 63.511 72.361 L 59.021 46.180 L 78.042 27.639 L 51.756 23.820 L 40.000 0.000 L 28.244 23.820 L 1.958 27.639 L 20.979 46.180 L 16.489 72.361 L 40.000 60.000"></path>
+                            </svg>
+                        </label>
+                        <input id="rate-2" type="radio" name="rating" value="2">
+                        <label for="rate-2">
+                            <svg viewBox="0 -4 80 80">
+                                <path d="M 40.000 60.000 L 63.511 72.361 L 59.021 46.180 L 78.042 27.639 L 51.756 23.820 L 40.000 0.000 L 28.244 23.820 L 1.958 27.639 L 20.979 46.180 L 16.489 72.361 L 40.000 60.000"></path>
+                            </svg>
+                        </label>
+                        <input id="rate-1" type="radio" name="rating" value="1">
+                        <label for="rate-1">
+                            <svg viewBox="0 -4 80 80">
+                                <path d="M 40.000 60.000 L 63.511 72.361 L 59.021 46.180 L 78.042 27.639 L 51.756 23.820 L 40.000 0.000 L 28.244 23.820 L 1.958 27.639 L 20.979 46.180 L 16.489 72.361 L 40.000 60.000"></path>
+                            </svg>
+                        </label>
+                    </fieldset>
                 </div>
                 <form class="form-group">
                     <label for="nama">Nama (Optional)</label>
@@ -73,6 +101,29 @@
                         <button class="btn btn-primary blue-bg black-text mt-3" type="submit">Submit</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row mb-5">
+            <div class="col text-center">
+                <h1>Sponsor Kami</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/GitHub-Mark.png" alt="">
+            </div>
+            <div class="col">
+                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/uns.png" alt="">
+            </div>
+            <div class="col">
+                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/kemendikbud.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <img style="width: 600px;" class="img-fluid img-responsive" src="./assets/img/spacex.png" alt="">
             </div>
         </div>
     </div>
@@ -103,10 +154,10 @@
                 <div class="col-md-4">
                     <h4>Berlangganan</h4>
                     <p>Berlangganan email kami untuk mendapatkan informasi terkini, diskon, acara, dan beasiswa<br></p>
-                    <div class="input-group">
-                        <div class="input-group-prepend"></div><input class="form-control" type="text">
-                        <div class="input-group-append"><button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000000;">Subscribe!</button></div>
-                    </div>
+                    <form class="input-group" id="subscribe">
+                        <div class="input-group-prepend"></div><input class="form-control" type="email">
+                        <div class="input-group-append"><button class="btn btn-primary blue-bg black-text" type="button" onclick="hideSub()">Subscribe!</button></div>
+                    </form>
                 </div>
             </div>
         <div class="row">
@@ -119,5 +170,6 @@
 
     <script src="./assets/js/jquery-3.5.1.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/subscribe.js"></script>
 </body>
 </html>

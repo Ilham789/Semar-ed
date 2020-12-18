@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="assets/img/Logo.png">
+    <meta property="og:image" content="assets/img/neonbrand-zFSo6bnZJTw-unsplash.jpg">
     <meta property="og:type" content="website">
     <meta name="description" content="SemarEd adalah perusahaan bimbingan belajar yang terverifikasi. Kami sudah berdiri sejak tahun 2012 dan menjadi bimbingan belajar terpercaya di Indonesia">
-    <title>SemarEd | Pendaftaran</title>
+    <title>SemarEd | Kebijakan</title>
     <link rel="icon" type="image/png" sizes="67x49" href="assets/img/Logo.png">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -25,7 +25,7 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link black-text" href="./index.html"><u>< Kembali ke menu sebelumnya</u></a></li>
                     <li class="nav-item"><u><a class="nav-link black-text" href="./mendaftar.html">Mendaftar</a></u></li>
-                    <li class="nav-item"><u><a class="nav-link black-text" href="./kontak.html">Kontak</a></u></li>
+                    <li class="nav-item"><u><a class="nav-link black-text" href="./kontak.html">Customer Service</a></u></li>
                 </ul>
             </div>
         </div>
@@ -75,23 +75,6 @@
                 <h1 class="mt-5">Cookies</h1>
                 <p>Platform kami menggunakan Cookies. Cookies adalah data yang dikirimkan dari situs kami ke browser Anda dan disimpan di hard-drive komputer Anda. Kami menggunakan cookies untuk menyimpan beberapa data identifikasi dengan tujuan meningkatkan kualitas pelayanan yang platform kami berikan pada kebutuhan Anda.</p>
                 <p>Anda dapat memerintahkan browser untuk menangkal penggunaan cookies dari platform kami. Namun hal tersebut dapat berakibat pada tidak berfungsinya sebagian fitur yang kami tujukan pada Anda sebagai pengguna</p>
-                <h1 class="mt-5">Sponsor, Mitra, dan Kerjasama</h1>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col">
-                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/GitHub-Mark.png" alt="">
-            </div>
-            <div class="col">
-                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/uns.png" alt="">
-            </div>
-            <div class="col">
-                <img style="width: 170px;" class="img-fluid img-responsive" src="./assets/img/kemendikbud.png" alt="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <img style="width: 600px;" class="img-fluid img-responsive" src="./assets/img/spacex.png" alt="">
             </div>
         </div>
     </div>
@@ -122,10 +105,10 @@
                 <div class="col-md-4">
                     <h4>Berlangganan</h4>
                     <p>Berlangganan email kami untuk mendapatkan informasi terkini, diskon, acara, dan beasiswa<br></p>
-                    <div class="input-group">
-                        <div class="input-group-prepend"></div><input class="form-control" type="text">
-                        <div class="input-group-append"><button class="btn btn-primary" type="button" style="background: #aee6e6;color: #000000;">Subscribe!</button></div>
-                    </div>
+                    <form class="input-group" id="subscribe">
+                        <div class="input-group-prepend"></div><input class="form-control" type="email">
+                        <div class="input-group-append"><button class="btn btn-primary blue-bg black-text" type="button" onclick="hideSub()">Subscribe!</button></div>
+                    </form>
                 </div>
             </div>
         <div class="row">
@@ -138,5 +121,6 @@
 
     <script src="./assets/js/jquery-3.5.1.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/subscribe.js"></script>
 </body>
 </html>
